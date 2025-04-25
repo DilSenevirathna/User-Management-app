@@ -1,4 +1,52 @@
-<<<<<<< HEAD
+# User Management Application
+
+This is a simple user management application built with React. It allows users to add, update, delete, and search for user records. The application also includes a login feature for authentication.
+
+## Features
+- User authentication (login/logout)
+- Add new users
+- Update existing user details
+- Delete users
+- Search functionality for users
+- Responsive design
+
+## Technologies Used
+- React
+- Axios (for API calls)
+- CSS (for styling)
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/user-management-app.git
+   cd user-management-app
+
+How to Test/Run the Application
+Run the Application Follow the setup instructions to start the application.
+
+Login
+
+Use the credentials:
+Username: user
+Password: password
+Click the "Login" button to access the user management features.
+Manage Users
+
+Add User: Fill in the first name, last name, and email, then click "Add User".
+Update User: Click the "Edit" button next to a user to modify their details, then click "Update User".
+Delete User: Click the "Delete" button next to a user to remove them from the list.
+Search Users: Use the search bar to filter users by first or last name.
+Logout
+
+Click the "Logout" button to exit the user management interface.
+
+![Login](https://github.com/user-attachments/assets/91a07c39-2659-4d52-9c29-0df90ecbb162)
+![app2](https://github.com/user-attachments/assets/e2e870cd-2a94-4994-96a4-5f1d8479451d)
+
+Mobile responsive 
+
+![image](https://github.com/user-attachments/assets/07780c93-209d-4989-bbf6-215e4721e11e)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
