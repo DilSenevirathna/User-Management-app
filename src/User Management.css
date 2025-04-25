@@ -1,0 +1,326 @@
+/* src/UserManagement.css */
+
+body {
+    background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://media.istockphoto.com/id/1390249765/photo/compliance-with-internal-regulations-basic-rules-of-employees-in-the-company-law-regulation.webp?a=1&b=1&s=612x612&w=0&k=20&c=PWzFie3iflSoDZxnxDuAmpKQdmQuZRbxey-BJ6-iet4=');
+            background-size: cover;
+            background-position: center;
+}
+
+.user-management {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white; /* Keep the form background white for contrast */
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.user-management h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.login-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Other styles remain unchanged */
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.user-form input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.user-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.user-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.user-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+ul li div {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+ul li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+ul li button:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.login-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius : 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.notification {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: none; /* Initially hidden */
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: none; /* Initially hidden */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-group button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-group button.edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.button-group button.edit:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+.button-group button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-group button.delete:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+.logout-button {
+    padding: 12px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px; /* Add some space above the button */
+    width: 100%; /* Make it full width */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .user-management {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .user-management h1 {
+        font-size: 2rem;
+    }
+
+    .user-form input,
+    .login-form input,
+    .search-bar input {
+        padding: 10px;
+    }
+
+    .user-form button,
+    .login-form button {
+        padding: 10px;
+    }
+
+    ul li {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        align-items: flex-start;
+    }
+
+    ul li div {
+        width: 100%; /* Full width for buttons */
+        justify-content: space-between;
+    }
+}
