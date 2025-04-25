@@ -1,4 +1,4 @@
-# User Management Application
+# User Management Application : https://dilsenevirathna.github.io/User-Management-app/
 
 This is a simple user management application built with React. It allows users to add, update, delete, and search for user records. The application also includes a login feature for authentication.
 
@@ -19,7 +19,7 @@ This is a simple user management application built with React. It allows users t
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/user-management-app.git
+   git clone https://github.com/DilSenevirathna/User-Management-app.git
    cd user-management-app
 
 How to Test/Run the Application
